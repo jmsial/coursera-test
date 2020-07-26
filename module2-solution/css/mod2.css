@@ -4,7 +4,7 @@
   font-family: Comic Sans, Comic Sans MS, Chalkboard SE, Comic Neue, Papyrus, cursive, sans-serif;
   /*Comic Sans appears with different denominations; also, it might be absent in the user's device.*/
   color: black;
-
+  
 }
 h1 {
   text-align: center;

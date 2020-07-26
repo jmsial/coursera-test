@@ -4,7 +4,7 @@
   font-family: Comic Sans, Comic Sans MS, Chalkboard SE, Comic Neue, Papyrus, cursive, sans-serif;
   /*Comic Sans appears with different denominations; also, it might be absent in the user's device.*/
   color: black;
-  
+
 }
 h1 {
   text-align: center;
@@ -67,7 +67,7 @@ p {
 }
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -110,7 +110,7 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -153,7 +153,7 @@ p {
 }
 
 /********** Small devices only **********/
-@media (max-width: 991) {
+@media (max-width: 767) {
   .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
 

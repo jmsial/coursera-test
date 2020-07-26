@@ -9,12 +9,14 @@
 h1 {
   text-align: center;
   margin-bottom: 30px;
+  font-size:175%;
 }
 
 h2 {
   /*General qualities of the subtitles for each main container. The specific ones go by class.*/
   width: 150px;
   text-align: center;
+  text-size: 125%;
   padding: auto;
   margin-top: 0px;
   margin-bottom: 15px;
@@ -23,6 +25,7 @@ h2 {
   margin-right: auto;
   margin-right: 10px;
   float: right;
+
 }
 
 /*Colors for the subtitles*/

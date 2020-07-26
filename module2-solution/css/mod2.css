@@ -16,7 +16,7 @@ h2 {
   /*General qualities of the subtitles for each main container. The specific ones go by class.*/
   width: 150px;
   text-align: center;
-  text-size: 125%;
+  font-size: 125%;
   padding: auto;
   margin-top: 0px;
   margin-bottom: 15px;

@@ -1,0 +1,113 @@
+/********** Base styles **********/
+body {
+  box-sizing: border-box;
+  font-family: Comic Sans, Comic Sans MS, Chalkboard SE, Comic Neue, Papyrus, cursive, sans-serif;
+  /*Comic Sans appears with different denominations; also, it might be absent in the user's device.*/
+  color: black;
+}
+
+#header-nav{
+	background-color: gray;
+/*	border-radius:0;*/
+	/*color: black;*/
+}
+
+.navbar-brand {
+	padding-top: 13px;
+	/*Of this padding depends the vertical position of the page title, "Food, LLC"*/
+}
+.navbar-brand h1 {
+	color: black;
+	font-size:1.5em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+ }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	/* Properties of the button */
+	border: 1px solid black;/*solid #61122f;*/
+}
+
+
+#nav-list {
+	margin-top: 10px;
+
+}
+
+#nav-list li a {
+	color: black;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav-list li:nth-child(1) {
+	padding-bottom: 7px;
+}
+
+
+#nav-list li:nth-child(2) {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#nav-list li:nth-child(3) {
+	padding-top: 7px;
+}
+
+/*Main content*/
+
+#main-content h2 {
+	color: black;
+	font-size:1.5em;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+
+
+#main-content section {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#main-content .menu-item {
+	min-height: 1000px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-content div h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: lightgray;
+	margin-bottom: 0px
+}
+
+#main-content div p {
+	background-color: lightgray;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 1000px;
+}
+
+
+/*End main content*/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsable-nav{
+		background-color: lightgrey;
+		border: 1px solid black;
+		padding-bottom: 0px;
+		padding-top: 0px;	
+	}
